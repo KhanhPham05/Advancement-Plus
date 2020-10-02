@@ -1,0 +1,17 @@
+{
+    "name": "book.generators.heat_generators.name",
+    "category": "advanced_advancement:simple_generators",
+    "icon": "mekanismgenerators:heat_generator",
+    "sortnum": 0,
+    "pages":[
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:heat_generator",
+            "text": "book.generators.heat_generators.desc1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:generator/heat"
+        }
+    ]
+}

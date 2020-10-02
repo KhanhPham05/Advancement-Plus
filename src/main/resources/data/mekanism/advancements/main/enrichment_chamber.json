@@ -1,0 +1,46 @@
+{
+  "parent": "mekanism:main/root",
+  "display": {
+    "icon": {
+      "item": "mekanism:enrichment_chamber"
+    },
+    "title": {
+      "translate": "advancement.mek.enrichment_chamber"
+    },
+    "description": {
+      "translate": "advancement.mek.enrichment_chamber.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announced_to_chat": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:enrichment_chamber"
+          }
+        ]
+      }
+    },
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:enrichment_chamber"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft",
+      "place"
+    ]
+  ]
+}

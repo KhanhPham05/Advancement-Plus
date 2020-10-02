@@ -1,0 +1,37 @@
+{
+  "parent": "mekanism:main/atomic_alloy",
+  "display": {
+    "icon": {"item": "mekanism:basic_logistical_transporter"},
+    "title": {"translate": "advancement.mek.transporter.basic.name"},
+    "description": {"translate": "advancement.mek.transporter.basic.desc"},
+    "frame": "task"
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:basic_logistical_transporter"
+          }
+        ]
+      }
+    },
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:basic_logistical_transporter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft",
+      "place"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "mekanism:metallurgic_infuser"
+  },
+  "pattern":[
+    "PFP",
+    "ROR",
+    "PFP"
+  ],
+  "key": {
+    "P":
+    {"tag": "forge:plates/iron"},
+    "F":
+    {"item": "minecraft:furnace"},
+    "R":
+    {"tag": "forge:dusts/redstone"},
+    "O":
+    {"item": "mekanism:ingot_osmium"}
+  }
+}

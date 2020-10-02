@@ -1,0 +1,23 @@
+{
+  "parent": "mekanism:main/logistical_transporter/basic",
+  "display": {
+    "icon": {"item": "mekanism:advanced_logistical_transporter"},
+    "title": {"translate": "advancement.mek.transporter.advanced.name"},
+    "description": {"translate": "advancement.mek.transporter.advanced.desc"},
+    "frame": "task"
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": {
+          "item": [
+            {
+              "item": "mekanism:advanced_logistical_transporter"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

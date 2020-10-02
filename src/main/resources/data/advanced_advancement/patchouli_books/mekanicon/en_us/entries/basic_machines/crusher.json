@@ -1,0 +1,19 @@
+{
+  "name": "book.basic_machines.crusher.name",
+  "category": "advanced_advancement:basic_machines",
+  "icon": "mekanism:crusher",
+  "advancement": "mekanism:main/crusher",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:crusher",
+      "text": "book.basic_machines.crusher.desc1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:crusher",
+      "text": "book.basic_machines.crusher.desc2"
+    }
+  ]
+}

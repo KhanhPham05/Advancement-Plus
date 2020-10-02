@@ -1,0 +1,23 @@
+{
+  "parent": "mekanism:main/logistical_transporter/elite",
+  "display": {
+    "icon": {"item": "mekanism:ultimate_logistical_transporter"},
+    "title": {"translate": "advancement.mek.transporter.ultimate.name"},
+    "description": {"translate": "advancement.mek.transporter.ultimate.desc"},
+    "frame": "challenge"
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": {
+          "item": [
+            {
+              "item": "mekanism:ultimate_logistical_transporter"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
