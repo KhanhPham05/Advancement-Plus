@@ -1,0 +1,29 @@
+{
+  "parent": "mekanism:main/metallurgic_infuser",
+  "display": {
+    "icon": {"item": "mekanism:basic_control_circuit"},
+    "title": {"translate": "advancement.mek.control_circuit.basic.name"},
+    "description": {"translate":"advancement.mek.control_circuit.basic.desc"},
+    "show_toast": true,
+    "hidden": false,
+    "frame": "task",
+    "announced_to_chat": true
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:basic_control_circuit"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft"
+    ]
+  ]
+}
