@@ -1,0 +1,35 @@
+{
+  "parent": "mekanism:main/osmium_compressor",
+  "display": {
+    "icon": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "title": {
+      "translate": "advancement.mek.refined_obsidian_ingot"
+    },
+    "description": {
+      "translate": "advancement.mek.refined_obsidian_ingot.desc"
+    },
+    "show_toast": true,
+    "hidden": false,
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:ingot_refined_obsidian"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft"
+    ]
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    "parent": "mekanism:main/root",
+    "display": {
+      "icon": {
+        "item" : "mekanism:osmium_compressor"
+      },
+      "title": {
+        "translate": "advancement.mek.osmium_compressor"
+      },
+      "description": {
+        "translate": "advancement.mek.osmium_compressor.desc"
+        },
+
+      "frame": "goal",
+      "announce_to_chat": true,
+      "show_toast": true,
+      "hidden": false
+    },
+    "criteria":{
+      "craft": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items":[
+            {
+              "item": "mekanism:osmium_compressor"
+            }
+          ]
+        }
+      },
+      "place": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "items": [
+              {
+                "item": "mekanism:osmium_compressor"
+              }
+            ]
+          }
+        }
+      }
+    },
+  "requirements": [
+    [
+      "craft",
+      "place"
+    ]
+  ]
+}
