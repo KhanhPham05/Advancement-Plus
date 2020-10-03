@@ -1,0 +1,46 @@
+{
+  "parent": "mekanism:main/root",
+  "display": {
+    "icon": {
+      "item": "mekanism:crusher"
+    },
+    "title": {
+      "translate": "advancement.mek.crusher"
+    },
+    "description": {
+      "translate": "advancement.mek.crusher.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announced_to_chat": true
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:crusher"
+          }
+        ]
+      }
+    },
+    "place": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:crusher"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft",
+      "place"
+    ]
+  ]
+}

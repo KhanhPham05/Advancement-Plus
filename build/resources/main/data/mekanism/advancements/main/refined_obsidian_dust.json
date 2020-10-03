@@ -1,0 +1,29 @@
+{
+  "parent": "mekanism:main/metallurgic_infuser",
+  "display": {
+    "icon": {"item": "mekanism:dust_refined_obsidian"},
+    "title": {"translate": "advancement.mek.refined_obsidian_dust"},
+    "description": {"translate": "advancement.mek.refined_obsidian_dust.desc"},
+    "hidden": false,
+    "show_toast": true,
+    "announced_to_chat": true,
+    "frame": "task"
+  },
+  "criteria": {
+    "craft":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:dust_refined_obsidian"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft"
+    ]
+  ]
+}
