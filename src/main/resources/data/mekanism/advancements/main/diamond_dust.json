@@ -1,0 +1,35 @@
+{
+  "parent": "mekanism:main/crusher",
+  "display": {
+    "icon": {
+      "item": "mekanism:dust_diamond"
+    },
+    "title": {
+      "translate": "advancement.mek.diamond_dust"
+    },
+    "description": {
+      "translate": "advancement.mek.diamond_dust.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announced_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items": [
+          {
+            "item": "mekanism:dust_diamond"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft"
+    ]
+  ]
+}

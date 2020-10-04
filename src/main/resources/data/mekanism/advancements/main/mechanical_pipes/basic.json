@@ -1,0 +1,30 @@
+{
+    "parent":"mekanism:main/configurator",
+    "display":{
+        "icon":
+         {"item": "mekanism:basic_mechanical_pipe"},
+        "title":
+         {"translate": "advancement.mek.pipe.basic.name"},
+        "description":
+         {"translate":"advancement.mek.pipe.basic.desc"},
+         
+        "frame":"task"
+    },
+    "criteria":{
+        "craft":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {
+                        "item":"mekanism:basic_mechanical_pipe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements":[
+        [
+          "craft"
+        ]
+      ]
+}

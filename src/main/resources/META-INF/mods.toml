@@ -1,0 +1,42 @@
+
+modLoader="javafml"
+
+loaderVersion="[32,)"
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+modId="advanced_advancement" #mandatory
+version="1.16.07" #mandatory
+displayName="Advanced Advancement" #mandatory
+logoFile="main_icon.png" #optional
+
+# (#mandatory)
+description='''
+ Addons include Mekanism Add-ons with Advancement and some stuffs
+'''
+
+[[dependencies.advanced_advancement]]
+modId="forge"
+mandatory=true
+versionRange="[32.0.108,)"
+side="BOTH"
+
+[[dependencies.advanced_advancement]]
+modId="mekanism"
+mandatory=true
+versionRange="[10.0.9,)"
+side="BOTH"
+
+[[dependencies.advanced_advancement]]
+modId="betteradvancements"
+mandatory=true
+versionRange="[0.1.0.100,)"
+side="BOTH"
+
+[[dependencies.advanced_advancement]]
+modId="patchouli"
+mandatory=true
+versionRange="[1.16-39,)"
+side="BOTH"
+

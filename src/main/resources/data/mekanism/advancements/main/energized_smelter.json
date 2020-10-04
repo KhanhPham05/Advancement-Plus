@@ -1,0 +1,48 @@
+{
+  "parent": "mekanism:main/hat_generator",
+  "display": {
+    "icon": {
+      "item": "mekanism:energized_smelter"
+    },
+    "title": {
+      "translate": "advancement.mek.energized_smelter"
+    },
+    "description": {
+      "translate": "advancement.mek.energized_smelter.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announced_to_chat": true
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:energized_smelter"
+          }
+        ]
+        }
+      },
+  
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:energized_smelter"
+          }
+        ]
+        }
+    }
+  },
+
+  "requirements": [
+    [
+      "craft",
+      "place"
+    ]
+  ]
+}

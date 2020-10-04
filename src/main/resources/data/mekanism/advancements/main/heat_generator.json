@@ -1,0 +1,37 @@
+{
+    "parent": "mekanism:main/root",
+    "display":{
+        "icon": {"item":"mekanismgenerators:heat_generator"},
+        "title": {"translate":"advancement.mek.heat_generator.name"},
+        "description":{"translate":"advancement.mek.heat_generator.desc"},
+        "frame":"goal"
+    },
+    "criteria":{
+        "craft":{
+            "trigger":"minecraft:inventory_changed",
+            "conditions":{
+                "items":[
+                    {
+                        "item":"mekanismgenerators:heat_generator"
+                    }
+                ]
+            }
+        },
+        "place":{
+            "trigger":"minecraft:placed_block",
+            "conditions":{
+                "items":[
+                    {
+                        "item":"mekanismgenerators:heat_generator"
+                    }
+                ]
+            }
+        }
+    },
+    "requirments":[
+        [
+            "craft",
+            "place"
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "result":{
+        "item":"mekanism:baisc_bin"
+    },
+    "pattern":[
+        "CBC",
+        "RHR",
+        "CCC"
+    ],
+    "key":{
+        "C":{
+            "item":"minecraft:cobblestone"
+        },
+        "B":{
+            "item":"mekanism:basiic_control_circuit"
+        },
+        "R":{
+            "tag":"forge:dusts/redstone"
+        },
+        "H":{
+            "item":"minecraft:chest"
+        }
+    }
+}
