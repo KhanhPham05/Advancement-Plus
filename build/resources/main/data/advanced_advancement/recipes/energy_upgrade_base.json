@@ -1,0 +1,23 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "result":{
+    "item": "advanced_advancement:blank_upgrade0"
+  },
+  "pattern":[
+    " G ",
+    "ADA",
+    " G "
+  ],
+  "key":
+  {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "A": {
+      "tag" : "mekanism:alloys/infused"
+    },
+    "D": {
+      "tag": "forge:dusts/gold"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
   "parent": "mekanism:main/atomic_alloy",
+
   "display": {
     "icon": {"item": "mekanism:configurator"},
     "title": {"translate": "advancement.mek.configurator.name"},
@@ -21,9 +22,12 @@
       }
     }
   },
+
   "requirements":[
     [
       "craft"
     ]
   ]
+
+
 }

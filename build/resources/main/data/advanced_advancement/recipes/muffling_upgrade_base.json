@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "advanced_advancement:muffling_upgrade_base"
+  },
+  "pattern": [
+    " G ",
+    "ASA",
+    " G "
+  ],
+  "key":
+  {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "A": {
+      "item": "mekanism:alloys/infused"
+    },
+    "S": {
+      "tag": "forge:dusts/steel"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
     "parent": "mekanism:main/root",
     "display":{
+
         "icon": {"item":"mekanismgenerators:heat_generator"},
         "title": {"translate":"advancement.mek.heat_generator.name"},
         "description":{"translate":"advancement.mek.heat_generator.desc"},
@@ -12,7 +13,9 @@
             "conditions":{
                 "items":[
                     {
+
                         "item":"mekanismgenerators:heat_generator"
+
                     }
                 ]
             }

@@ -3,6 +3,7 @@
   "display": {
     "icon": {"item": "mekanism:advanced_control_circuit"},
     "title": {"translate": "advancement.mek.control_circuit.advanced.name"},
+
     "description": {"translate": "advancement.mek.control_circuit.advanced.desc"},
     "show_toast": true,
     "hidden": false,

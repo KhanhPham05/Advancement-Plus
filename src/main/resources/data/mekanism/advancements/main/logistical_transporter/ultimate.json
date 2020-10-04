@@ -10,13 +10,15 @@
     "craft": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
+
         "items":  [
-            {
+
               "item": "mekanism:ultimate_logistical_transporter"
             }
           ]
         }
       }
+
     },
     "requirements":[
       [
@@ -24,3 +26,4 @@
       ]
     ]
   }
+

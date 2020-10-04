@@ -1,0 +1,19 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "result":{
+    "item": "advanced_advancement:speed_upgrade_base"
+  },
+  "pattern":[
+    " G ",
+    "A#A",
+    " G "
+  ],
+  "key":
+  {"G":
+  {"tag":"forge:glass"},
+    "#":
+    {"tag":"forge:dusts/osmium"},
+    "A":
+    {"tag":"mekanism:alloys/infused"}
+  }
+}

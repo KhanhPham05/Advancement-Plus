@@ -1,0 +1,21 @@
+{
+  "parent": "mekanism:control_circuits/elite",
+  "display": {
+    "icon": {"item": "advanced_advancement:chaos_control_circuit"},
+    "title": {"translate": "advancement.mek.control_circuit.chaos.name"},
+    "description": {"translate": "advancement.mek.control_circuit.chaos.desc"},
+    "frame": "task"
+  },
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "advanced_advancement:chaos_control_circuit"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -10,7 +10,9 @@
   ],
   "key": {
     "H":
+
     {"item": "mekanism:basic_control_circuit"},
+
     "R":
     {"tag": "forge:dusts/redstone"},
     "L":

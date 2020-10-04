@@ -16,12 +16,24 @@
           }
         ]
       }
+   },
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "items": [
+          {
+            "item": "mekanism:basic_logistical_transporter"
+          }
+        ]
+      }
+
     }
   },
   "requirements": [
     [
-      "craft"
-      
+      "craft",
+      "place
+    
     ]
   ]
 }

@@ -67,6 +67,7 @@
   "book.basic_machines.crusher.name": "Crusher",
   "book.basic_machines.crusher.desc1": "This machines will help you to crushing Ingots, Clumps, Dirty Dusts, Diamond too. But It will not very useful in the early game, will be very useful in late game progress",
   "book.basic_machines.crusher.desc2": "The crafting recipe will be includes Immersive Engineering Steel Plate if you have IE installed with",
+
   "book.machines.combiner.name": "Combiner",
   "book.machines.combiner.spotlight": "This machine will combines dusts or resources with stones, It will combining them into corresponding ores. It can be applies 3 types of upgrades Muffling - Speed - Energy",
   "book.machines.combiner.crafting": "This is the recipe of the Combiner",
@@ -89,5 +90,14 @@
   "book.generators.heat_generators.name": "Heat Generator",
   "book.generators.heat_generators.desc1": "This generator is the one of the most basic generators, it will consumes heats from coal, woods or lava or any heat source that use for furnace will also can be use here. The following page will be the crafting recipe for it",
   
-  "itemGroup.additionTab": "Advanced Advancement"
+
+  
+    " ---------- SIMPLE GENERATORS  -------": "",
+  "book.simple_generators.category.name": "§2Simple Generators",
+  "book.simple_generators.category.desc": "This Chapter will covers all about the Mekanism Simple Generators for your machines !!",
+     
+      " -- Entries extension is 'generators'  --":"",
+  
+  "book.generators.heat_generators.name": "Heat Generator",
+  "book.generators.heat_generators.desc1": "This generator is the one of the most basic generators, it will consumes heats from coal, woods or lava or any heat source that use for furnace will also can be use here. The following page will be the crafting recipe for it",
 }

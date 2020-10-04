@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advanced_advancement:blank_upgrade0"
+    },
+    {
+      "item": "advanced_advancement:speed_upgrade_base"
+    }
+  ],
+  "result":
+  {
+    "item": "mekanism:upgrade_speed",
+    "count": 1
+  }
+}

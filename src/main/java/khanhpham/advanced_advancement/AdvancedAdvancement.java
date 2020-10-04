@@ -12,7 +12,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("advanced_advancement")
 public class AdvancedAdvancement
 {
-    public static final String MODID = "advanced_advancement";
+
     public AdvancedAdvancement() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);

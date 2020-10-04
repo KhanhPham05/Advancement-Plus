@@ -1,5 +1,7 @@
 {
+
   "parent": "mekanism:main/heat_generator",
+
   "display": {
     "icon": {
       "item": "mekanism:crusher"

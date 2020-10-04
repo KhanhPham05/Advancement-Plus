@@ -10,6 +10,7 @@
     "craft": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
+
         "items": [
             {
               "item": "mekanism:advanced_logistical_transporter"
@@ -24,3 +25,4 @@
     ]
   ]
 }
+
