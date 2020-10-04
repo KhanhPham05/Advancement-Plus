@@ -1,14 +1,18 @@
 {
-  "parent": "mekanism:main/root",
+
+  "parent": "mekanism:main/hat_generator",
+
   "display": {
     "icon": {
       "item": "mekanism:energized_smelter"
     },
     "title": {
-      "translate": "advancement.mekanism.smelter"
+
+      "translate": "advancement.mek.energized_smelter"
     },
     "description": {
-      "translate": "advancement.mekanism.smelter.desc"
+      "translate": "advancement.mek.energized_smelter.desc"
+
     },
     "frame": "goal",
     "hidden": false,
@@ -25,8 +29,13 @@
           }
         ]
         }
+
+      },
+  
+=======
       }
     },
+
     "place": {
       "trigger": "minecraft:placed_block",
       "conditions": {
@@ -36,8 +45,11 @@
           }
         ]
         }
-      },
 
+    }
+  },
+
+      },
   "requirements": [
     [
       "craft",

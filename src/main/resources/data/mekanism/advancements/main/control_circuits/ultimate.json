@@ -1,5 +1,7 @@
 {
-  "parent": "mekanism/main/control_circuits/chaos",
+
+  "parent": "mekanism/main/control_circuits/elite",
+
   "display": {
     "icon": {"item": "mekanism:ultimate_control_circuit"},
     "title": {"translate": "advancement.mek.control_circuit.ultimate.name"},

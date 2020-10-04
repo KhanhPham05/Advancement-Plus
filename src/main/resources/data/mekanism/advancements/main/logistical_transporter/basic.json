@@ -16,7 +16,7 @@
           }
         ]
       }
-    },
+   },
     "place": {
       "trigger": "minecraft:placed_block",
       "conditions": {
@@ -26,12 +26,14 @@
           }
         ]
       }
+
     }
   },
   "requirements": [
     [
       "craft",
-      "place"
+      "place
+    
     ]
   ]
 }

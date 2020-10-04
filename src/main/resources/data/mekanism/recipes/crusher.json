@@ -10,7 +10,9 @@
   ],
   "key": {
     "H":
-    {"item": "advanced_advancement:chaos_control_circuit"},
+
+    {"item": "mekanism:basic_control_circuit"},
+
     "R":
     {"tag": "forge:dusts/redstone"},
     "L":

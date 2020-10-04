@@ -3,11 +3,12 @@
   "display": {
     "icon": {"item": "mekanism:advanced_control_circuit"},
     "title": {"translate": "advancement.mek.control_circuit.advanced.name"},
-    "description": {"translated": "advancement.mek.control_circuit.advanced.desc"},
+
+    "description": {"translate": "advancement.mek.control_circuit.advanced.desc"},
     "show_toast": true,
     "hidden": false,
     "announced_to_chat": true,
-    "frame": "task",
+    "frame": "task"
   },
   "criteria": {
     "craft": {

@@ -1,12 +1,4 @@
 {
-
-  " ------------- REGISTERED ITEMS -------------": "",
-  "item.advanced_advancement.blank_upgrade0": "Blank Upgrade",
-  "item.advanced_advancement.speed_upgrade_base": "§3Speed Upgrade Base",
-  "item.advanced_advancement.energy_upgrade_base": "§2Energy Upgrade Base",
-  "item.advanced_advancement.muffling_upgrade_base": "§7Muffling Upgrade Base",
-  "item.advanced_advancement.chaos_control_circuit": "Chaos §4Control Cir§1cui§4t §r",
-
   "---------------    ADVANCEMENTS    --------------------":"",
 
   "advancement.mek.root": "Welcome To Mekanism",
@@ -75,6 +67,30 @@
   "book.basic_machines.crusher.name": "Crusher",
   "book.basic_machines.crusher.desc1": "This machines will help you to crushing Ingots, Clumps, Dirty Dusts, Diamond too. But It will not very useful in the early game, will be very useful in late game progress",
   "book.basic_machines.crusher.desc2": "The crafting recipe will be includes Immersive Engineering Steel Plate if you have IE installed with",
+
+  "book.machines.combiner.name": "Combiner",
+  "book.machines.combiner.spotlight": "This machine will combines dusts or resources with stones, It will combining them into corresponding ores. It can be applies 3 types of upgrades Muffling - Speed - Energy",
+  "book.machines.combiner.crafting": "This is the recipe of the Combiner",
+  "book.machines.pump.name":"Electric Pump",
+  "book.machines.pump.spotlight":"This small machines but strong, It will pump the water, lava or any type of fluid. It needs the Mechanical Pipes to transfer the pumped fluid. It can be applies 3 type of upgrades Speed - Muffling - FILTER [Not Recommened At The Early Game]",
+  "book.machines.basic_bin.name": "Storage Bin",
+  "book.machines.bin.spotlight": "This is a storage block which will stores one type of item with a large amount of spacesand will increasing by tier from Basic to Ultimate, which item is storing will be visible at the front of the bin",
+  "book.machines.bin.crafting1":"§lBasic Bin§r Can Be Stores 4.096 items/bin",
+  "book.machines.bin.crafting2":"§lAdvanced Bin§r Can Be Stores 8.192 items/bin",
+  "book.machines.bin.crafting3":"§lElite Bin§r Can Be Stores 32.768 items/bin",
+  "book.machines.bin.crafting4":"§lUltimate Bin§r Can Be Stores 262.414 items/bin",
+  
+
+  "_comment": " ---------- SIMPLE GENERATORS  -------",
+  "book.simple_generators.category.name": "§2Simple Generators",
+  "book.simple_generators.category.desc": "This Chapter will covers all about the Mekanism Simple Generators for your machines !!",
+     
+  "_comments": " -- Entries extension is 'generators'  --",
+  
+  "book.generators.heat_generators.name": "Heat Generator",
+  "book.generators.heat_generators.desc1": "This generator is the one of the most basic generators, it will consumes heats from coal, woods or lava or any heat source that use for furnace will also can be use here. The following page will be the crafting recipe for it",
+  
+
   
     " ---------- SIMPLE GENERATORS  -------": "",
   "book.simple_generators.category.name": "§2Simple Generators",
@@ -84,6 +100,4 @@
   
   "book.generators.heat_generators.name": "Heat Generator",
   "book.generators.heat_generators.desc1": "This generator is the one of the most basic generators, it will consumes heats from coal, woods or lava or any heat source that use for furnace will also can be use here. The following page will be the crafting recipe for it",
-
-  "itemGroup.additionTab": "Advanced Advancement"
 }

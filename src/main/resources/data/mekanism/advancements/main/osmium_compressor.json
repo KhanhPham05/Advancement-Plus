@@ -1,5 +1,7 @@
 {
-    "parent": "mekanism:main/root",
+
+    "parent": "mekanism:main/heat_generator",
+
     "display": {
       "icon": {
         "item" : "mekanism:osmium_compressor"
@@ -37,8 +39,9 @@
             ]
           }
         }
-      }
-    },
+
+      },
+    
   "requirements": [
     [
       "craft",
