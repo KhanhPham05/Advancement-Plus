@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "advancementplus:icon"
+    },
+    "title": {
+      "translate": "advancement.root.t"
+    },
+    "description": {
+      "translate": "advancement.root.d"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/oak_planks.png"
+  },
+  "criteria": {
+    "get_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_wood"
+    ]
+  ]
+}

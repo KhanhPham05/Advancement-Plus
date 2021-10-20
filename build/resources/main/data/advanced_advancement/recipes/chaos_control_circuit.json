@@ -1,8 +1,0 @@
-{
-  "type": "mekanism:metallurgic_infusing",
-  "itemInput": {
-    "ingredient": {"item": "mekanism_basic_control_circuit"}
-  },
-  "infusionInput": {"amount": 200, "item": "mekanism:basic_control_circuit"},
-  "output": {"item": "advanced_advancement:chaos_control_circuit"}
-}
