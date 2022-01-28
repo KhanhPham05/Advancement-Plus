@@ -1,0 +1,33 @@
+{
+  "parent": "advancementplus:road_to_the_mansion",
+  "display": {
+    "icon": {
+      "item": "advancementplus:mansion_icon"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.a_terrifying_mansion"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.a_terrifying_mansion.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "locatemansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mansion"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locatemansion"
+    ]
+  ]
+}

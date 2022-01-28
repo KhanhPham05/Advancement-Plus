@@ -1,0 +1,38 @@
+{
+  "parent": "advancementplus:isn_this_diamond_pick",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.pickaxe_from_the_nether"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.pickaxe_from_the_nether.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_pickaxe"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "advancementplus:get_the_golds",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.get_the_netherite"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.get_the_netherite.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_ingot"
+    ]
+  ]
+}

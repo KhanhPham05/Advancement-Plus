@@ -1,0 +1,45 @@
+{
+  "parent": "advancementplus:bedrock/ahoy",
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.archer"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.archer.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ],
+        "killing_blow": {
+          "is_projectile": true,
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_creeper"
+    ]
+  ]
+}

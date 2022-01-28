@@ -1,0 +1,36 @@
+{
+  "parent": "advancementplus:road_to_the_monument",
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.road_to_the_mansion"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.road_to_the_mansion.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trade_filled_map_mansion": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:filled_map"
+          ],
+          "nbt": "{display:{MapColor:3830373,Name:\u0027{\"translate\":\"filled_map.mansion\"}\u0027}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trade_filled_map_mansion"
+    ]
+  ]
+}

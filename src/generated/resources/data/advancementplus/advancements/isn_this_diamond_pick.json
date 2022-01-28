@@ -1,0 +1,38 @@
+{
+  "parent": "advancementplus:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.isn_this_diamond_pick"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.isn_this_diamond_pick.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_diamond_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_pickaxe"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "advancementplus:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.underground_nature"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.underground_nature.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "to_cave_worldgen/biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:lush_caves"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "to_cave_worldgen/biome"
+    ]
+  ]
+}

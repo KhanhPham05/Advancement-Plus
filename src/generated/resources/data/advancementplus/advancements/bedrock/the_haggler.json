@@ -1,0 +1,33 @@
+{
+  "parent": "advancementplus:underwater_fisherman",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.the_haggler"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.the_haggler.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "advancementplus:emerald_from_trade",
+      "conditions": {
+        "amount": {
+          "min": 30
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

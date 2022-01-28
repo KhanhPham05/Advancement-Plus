@@ -1,0 +1,66 @@
+{
+  "parent": "advancementplus:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.fortunate_fisherman"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.fortunate_fisherman.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enchanted_book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "enchantments": [
+            null
+          ]
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "enchantments": [
+            null
+          ]
+        }
+      }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ],
+          "enchantments": [
+            null
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_book",
+      "bow",
+      "fishing_rod"
+    ]
+  ]
+}

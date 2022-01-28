@@ -1,0 +1,30 @@
+{
+  "parent": "advancementplus:bedrock/artificial_selection",
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.diving_fisherman"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.diving_fisherman.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "modded_trigger": {
+      "trigger": "advancementplus:underwater_fishing",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "modded_trigger"
+    ]
+  ]
+}
