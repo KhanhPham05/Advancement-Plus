@@ -1,0 +1,46 @@
+{
+  "parent": "advancementplus:bedrock/archer",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.star_trader"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.star_trader.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:villager",
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 318.0
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trade"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "advancementplus:underground_nature",
+  "display": {
+    "icon": {
+      "item": "minecraft:dripstone_block"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.spiky_cliffs"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.spiky_cliffs.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "to_cave_worldgen/biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:dripstone_caves"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "to_cave_worldgen/biome"
+    ]
+  ]
+}

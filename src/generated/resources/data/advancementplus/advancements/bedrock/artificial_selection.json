@@ -1,0 +1,48 @@
+{
+  "parent": "advancementplus:star_trader",
+  "display": {
+    "icon": {
+      "item": "advancementplus:heart"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.artificial_selection"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.artificial_selection.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "breed": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:horse"
+            },
+            "entity": "this"
+          }
+        ],
+        "partner": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:donkey"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed"
+    ]
+  ]
+}

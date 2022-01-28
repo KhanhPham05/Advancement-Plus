@@ -1,0 +1,33 @@
+{
+  "parent": "advancementplus:road_to_the_monument",
+  "display": {
+    "icon": {
+      "item": "advancementplus:monument_icon"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.the_city_at_the_bottom_of_the_ocean"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.the_city_at_the_bottom_of_the_ocean.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "locatemonument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "monument"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "locatemonument"
+    ]
+  ]
+}

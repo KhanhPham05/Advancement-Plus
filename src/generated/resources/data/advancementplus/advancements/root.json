@@ -1,37 +1,29 @@
 {
   "display": {
     "icon": {
-      "item": "advancementplus:icon"
+      "item": "advancementplus:mod_icon"
     },
     "title": {
-      "translate": "advancement.root.t"
+      "translate": "advancementplus.advancement.root"
     },
     "description": {
-      "translate": "advancement.root.d"
+      "translate": "advancementplus.advancement.root.desc"
     },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/block/oak_planks.png"
+    "background": "minecraft:textures/block/dark_oak_planks.png"
   },
   "criteria": {
-    "get_wood": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crafting_table"
-            ]
-          }
-        ]
-      }
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
     }
   },
   "requirements": [
     [
-      "get_wood"
+      "tick"
     ]
   ]
 }

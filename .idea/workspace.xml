@@ -4,81 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33759a7-147e-4bd7-a42f-86c19247c139" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+    <list default="true" id="2c30dfd8-906a-4640-9fb8-304dedee7125" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/assets/advancementplus/models/item/heart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/bedrock/ahoy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/bedrock/archer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/bedrock/artificial_selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/bedrock/the_haggler.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/underwater_fisherman.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/advancements/adventure/trade_at_world_height.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/event/PlayerMadeTradeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/event/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/AnotherMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/FishingUnderwaterMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/PlayerTradeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/EmeraldFromTradeTrigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ModCriteriaTriggers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/UnderwaterFishing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/ModStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/advancementplus/textures/item/heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.buildship.core/init.d/eclipsePlugin.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.buildship.core/project-preferences/Gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.buildship.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Gradlew/.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.buildship.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CREDITS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CREDITS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREDITS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/createMcpToSrg/output.tsrg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createMcpToSrg/output.tsrg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/createSrgToMcp/output.srg" afterDir="false" />
@@ -86,102 +46,27 @@
       <change beforePath="$PROJECT_DIR$/build/extractSrg/output.srg" beforeDir="false" afterPath="$PROJECT_DIR$/build/extractSrg/output.srg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/advanced_advancement/lang/en_us.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/book.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/en_us/categories/basic_machines.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/en_us/categories/simple_generators.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/crusher.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/energized_smelter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/enrichment_chamber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/metallurgic_infuser.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/simple_generators/heat_generator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/recipes/blank_upgrade0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/recipes/chaos_control_circuit.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/recipes/energy_upgrade_base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/recipes/muffling_upgrade_base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/advanced_advancement/recipes/speed_upgrade_base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/alloy_infused.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/alloy_reinforced.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/atomic_alloy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/configurator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/control_circuits/advanced.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/control_circuits/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/control_circuits/chaos.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/control_circuits/elite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/control_circuits/ultimate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/crusher.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/diamond_dust.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/energized_smelter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/enrichment_chamber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/heat_generator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/logistical_transporter/advanced.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/logistical_transporter/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/logistical_transporter/elite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/logistical_transporter/ultimate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/metallurgic_infuser.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/obsidian_dust.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/osmium_compressor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/refined_obsidian_dust.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/refined_obsidian_ingot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/advancements/main/root.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/recipes/crusher.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/recipes/energized_smelter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/recipes/enrichment_chamber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/recipes/metallurgic_infuser.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/recipes/upgrade/energy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/recipes/upgrade/muffling.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/mekanism/recipes/upgrade/speed.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/pack.mcmeta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/khanhpham/advanced_advancement/AdvancedAdvancement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/diamond_pick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/disc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/music_box.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/root.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/root.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/AdvancementPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/AdvancementPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/Names.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/DataGenEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/advancements/AdvancementGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/advancements/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/lang/LanguageGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/icon/IconRegistries.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/advanced_advancement/lang/en_us.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/book.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/categories/basic_machines.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/categories/simple_generators.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/combiner.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/crusher.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/energized_smelter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/enrichment_chamber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/fluid_pump.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/metallurgic_infuser.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/basic_machines/simple_storage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/advanced_advancement/patchouli_books/mekanicon/en_us/entries/simple_generators/heat_generator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/alloy_infused.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/alloy_reinforced.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/atomic_alloy.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/configurator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/control_circuits/advanced.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/control_circuits/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/control_circuits/elite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/control_circuits/ultimate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/crusher.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/diamond_dust.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/energized_smelter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/enrichment_chamber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/heat_generator.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/logistical_transporter/advanced.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/logistical_transporter/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/logistical_transporter/elite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/logistical_transporter/ultimate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/mechanical_pipes/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/metallurgic_infuser.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/obsidian_dust.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/osmium_compressor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/refined_obsidian_dust.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/refined_obsidian_ingot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/advancements/main/root.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/recipes/bin/basic.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/recipes/crusher.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/recipes/energized_smelter.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/recipes/enrichment_chamber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mekanism/recipes/metallurgic_infuser.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resources/data/advancementplus/function/reward_diamond.mcfunction" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,16 +89,22 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FORGE 1.17" type="f1a62948:ProjectNode" />
+                <item name="APlus - 1 - 18" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FORGE 1.17" type="f1a62948:ProjectNode" />
+                <item name="APlus - 1 - 18" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="FORGE 1.17" type="f1a62948:ProjectNode" />
+                <item name="APlus - 1 - 18" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="APlus - 1 - 18" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="forgegradle runs" type="c8890929:TasksNode$1" />
               </path>
@@ -235,21 +126,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1zj6HxLMsjQ5on4Fw3791wUtlWA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23e8bX0lVuAY7nwVpkadW5PcfOk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.152439" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/advancementplus/textures/item" />
   </component>
-  <component name="RunManager" selected="Gradle.FORGE 1.17 [runData]">
-    <configuration name="FORGE 1.17 [cleanEclipseClasspath]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\FORGE 1.18\APlus - 1 - 18\src\main\resources\assets\advancementplus\textures\item" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.APlus - 1 - 18 [build]">
+    <configuration name="APlus - 1 - 18 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -260,7 +159,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="cleanEclipseClasspath" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -270,7 +169,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FORGE 1.17 [runData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="APlus - 1 - 18 [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -281,7 +180,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="runData" />
+            <option value="genIntellijRuns" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -290,23 +189,53 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="APlus - 1 - 18" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="APlus - 1 - 18" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FORGE 1.17 [runData]" />
-        <item itemvalue="Gradle.FORGE 1.17 [cleanEclipseClasspath]" />
+        <item itemvalue="Gradle.APlus - 1 - 18 [build]" />
+        <item itemvalue="Gradle.APlus - 1 - 18 [genIntellijRuns]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c33759a7-147e-4bd7-a42f-86c19247c139" name="Default Changelist" comment="" />
-      <created>1634649066065</created>
+      <changelist id="2c30dfd8-906a-4640-9fb8-304dedee7125" name="Changes" comment="" />
+      <created>1642083277460</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1634649066065</updated>
+      <updated>1642083277460</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/APlus___1___18$runClient.ic" NAME="runClient Coverage Results" MODIFIED="1643291724291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

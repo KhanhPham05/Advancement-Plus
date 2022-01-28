@@ -1,0 +1,37 @@
+{
+  "parent": "advancementplus:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:dried_kelp"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.alternative_food"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.alternative_food.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dried_kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dried_kelp"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dried_kelp"
+    ]
+  ]
+}
