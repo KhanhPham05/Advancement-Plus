@@ -3,8 +3,9 @@
   "package": "com.khanhpham.advancementplus.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "AnotherMixin",
-    "FishingUnderwaterMixin"
+    "AdvancementCompleteMixin",
+    "FishingUnderwaterMixin",
+    "TriggerInit"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(CriteriaTriggers.class)
-public abstract class AnotherMixin {
+public abstract class TriggerInit {
 
     @Inject(at = @At("RETURN"), method = "register")
     private static <T extends CriterionTrigger<?>> void reg(T p_10596_, CallbackInfoReturnable<T> cir) {

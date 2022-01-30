@@ -22,6 +22,8 @@ import net.minecraft.world.level.levelgen.feature.StructureFeature;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.function.Consumer;
 
 @ParametersAreNonnullByDefault
@@ -75,7 +77,23 @@ public class APAdvancements extends AdvancementProvider {
         Advancement divingFisherman = helper.fishUnderwater(artificialSelection, "underwater_fisherman", Items.FISHING_ROD, ModLanguageProvider.DIVING_FISHERMAN, helper.frameGoal, true, true, ItemPredicate.ANY);
         Advancement theHaggler = theHaggler(helper, divingFisherman);
 
-        overwriteVanilla(helper);
+        overwriteVanilla(helper, root);
+        completeVanillaAdvancements(helper);
+    }
+
+    private void completeVanillaAdvancements(AdvancementHelper helper) {
+
+        ResourceLocation[] adventureAdvancements = getLocations("adventure", "adventuring_time", "arbalistic", "bullseye", "hero_of_the_village", "honey_block_slide", "kill_a_mob", "kill_all_mobs", "lightning_rod_with_villager_no_fire", "ol_betsy", "shoot_arrow", "sleep_in_bed", "sniper_duel", "spyglass_at_dragon", "spyglass_at_parrot", "spyglass_at_ghast", "summon_iron_golem", "throw_trident", "totem_of_undying", "trade", "two_birds_one_arrows", "very_very_frightening", "voluntary_exile", "walk_on_powder_snow_with_leather_boost", "whos_the_pillager_now");
+        helper.completeAdvancements("adventure/root", "complete/all_adventure", Items.FILLED_MAP, ModLanguageProvider.ALL_ADVENTURE, helper.frameChallenge, true, adventureAdvancements);
+    }
+
+    private ResourceLocation[] getLocations(String suf, String... locations) {
+        Set<ResourceLocation> locationSet = new HashSet<>();
+        for (String location : locations) {
+            locationSet.add(ModUtils.mcLoc(suf + '/' + location));
+        }
+
+        return locationSet.toArray(new ResourceLocation[0]);
     }
 
     @SuppressWarnings("deprecation")
@@ -100,8 +118,11 @@ public class APAdvancements extends AdvancementProvider {
         return builder.save(helper.consumer, ModUtils.modLoc("star_trader"), helper.fileHelper);
     }
 
-    private void overwriteVanilla(AdvancementHelper helper) {
-        Advancement.Builder.advancement().display(Items.EMERALD, new TranslatableComponent("advancements.adventure.trade_at_world_height.title"), new TranslatableComponent("advancements.adventure.trade_at_world_height.description"), null, FrameType.TASK, false, false, true).addCriterion("trade_at_world_height", new ImpossibleTrigger.TriggerInstance()).save(helper.consumer, "adventure/trade_at_world_height");
+    private void overwriteVanilla(AdvancementHelper helper, Advancement root) {
+        Advancement.Builder.advancement().display(Items.EMERALD, new TranslatableComponent("advancements.adventure.trade_at_world_height.title"), new TranslatableComponent("advancements.adventure.trade_at_world_height.description"), null, FrameType.TASK, false, false, true)
+                .parent(root)
+                .addCriterion("trade_at_world_height", new ImpossibleTrigger.TriggerInstance())
+                .save(helper.consumer, "adventure/trade_at_world_height");
     }
 
     private Advancement theHaggler(AdvancementHelper helper, Advancement parent) {

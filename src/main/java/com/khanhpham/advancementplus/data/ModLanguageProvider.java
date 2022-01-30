@@ -30,6 +30,7 @@ public class ModLanguageProvider extends LanguageProvider {
     public static final TranslatableComponent SPIKY_CLIFFS = translate("spiky_cliffs");
     public static final TranslatableComponent ARTIFICIAL_SELECTION = translate("artificial_selection");
     public static final TranslatableComponent DIVING_FISHERMAN = translate("diving_fisherman");
+    public static final TranslatableComponent ALL_ADVENTURE = translate("all_adventure");
     public static final TranslatableComponent THE_HAGGLER = translate("the_haggler");
 
     public ModLanguageProvider(DataGenerator gen) {
@@ -66,6 +67,7 @@ public class ModLanguageProvider extends LanguageProvider {
         advancement(ARTIFICIAL_SELECTION, "Artificial Selection", "Breed a mule from a Horse and a Donkey");
         advancement(DIVING_FISHERMAN, "Diving Fisherman", "Catch a fish underwater");
         advancement(THE_HAGGLER, "The Haggler", "Not Yet Implemented");
+        advancement(ALL_ADVENTURE, "Adventurer", "Complete all advancements in Adventure Chapter");
     }
 
     private void advancement(TranslatableComponent component, String title, String desc) {

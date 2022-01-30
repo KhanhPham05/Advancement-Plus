@@ -1,3 +1,4 @@
+
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net' }
@@ -25,7 +26,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 
 minecraft {
-    mappings channel: 'official', version: '1.18.1'
+    mappings channel: 'parchment', version: '2022.01.23-1.18.1'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -86,7 +87,7 @@ mixin {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.1-39.0.45'
+    minecraft 'net.minecraftforge:forge:1.18.1-39.0.63'
 
     runtimeOnly fg.deobf("curse.maven:the-one-probe-245211:3577512")
 

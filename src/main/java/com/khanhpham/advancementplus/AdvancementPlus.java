@@ -1,5 +1,6 @@
 package com.khanhpham.advancementplus;
 
+import com.khanhpham.advancementplus.icon.Icons;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
@@ -14,6 +15,5 @@ public class AdvancementPlus {
 
     public AdvancementPlus() {
         MinecraftForge.EVENT_BUS.register(this);
-
     }
 }
