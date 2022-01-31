@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c30dfd8-906a-4640-9fb8-304dedee7125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_adventure.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/AdvancementCompleteMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/CompleteAdvancementTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ResourceLocationPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_end.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_husbandry.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_nether.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_story.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/explosion_from_no_where.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/AdvancementChapters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/AdvancementGetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" afterDir="false" />
@@ -18,23 +20,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/advancementplus/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/assets/advancementplus/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/minecraft/advancements/adventure/trade_at_world_height.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/minecraft/advancements/adventure/trade_at_world_height.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/AdvancementPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/AdvancementPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_adventure.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_adventure.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/fortunate_fisherman.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/fortunate_fisherman.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/APAdvancements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/APAdvancements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/AdvancementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/AdvancementHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/ModLanguageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/ModLanguageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/icon/Icons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/icon/Icons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/AnotherMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/TriggerInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ModCriteriaTriggers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ModCriteriaTriggers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/AdvancementCompleteMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/AdvancementCompleteMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/CompleteAdvancementTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/CompleteAdvancementTrigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ResourceLocationPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ResourceLocationPredicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/ModUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/ModUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/aplus.mixin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aplus.mixin.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,7 @@
       <recent name="H:\FORGE 1.18\APlus - 1 - 18\src\main\resources\assets\advancementplus\textures\item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.runClient">
+  <component name="RunManager" selected="Gradle.APlus - 1 - 18 [build]">
     <configuration name="APlus - 1 - 18 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,8 +183,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.APlus - 1 - 18 [genIntellijRuns]" />
         <item itemvalue="Gradle.APlus - 1 - 18 [build]" />
+        <item itemvalue="Gradle.APlus - 1 - 18 [genIntellijRuns]" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +212,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.1-39.0.63_mapped_parchment_2022.01.23-1.18.1/forge-1.18.1-39.0.63_mapped_parchment_2022.01.23-1.18.1-sources.jar!/net/minecraft/server/ServerAdvancementManager.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-method">
+          <url>jar://F:/DO-NOT-DELETE-[Java]/lib/src.zip!/java.base/java/util/Map.java</url>
+          <line>244</line>
+          <properties class="java.util.Map" method="get">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/APlus___1___18$runClient.ic" NAME="runClient Coverage Results" MODIFIED="1643291724291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

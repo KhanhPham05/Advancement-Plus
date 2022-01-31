@@ -14,6 +14,8 @@ import javax.annotation.Nonnull;
  */
 public class ResourceLocationPredicate {
     private final ResourceLocation location;
+    public static final String REQ_ID = "required_location";
+    public static final String LOCATION = "resource_location";
 
     public ResourceLocationPredicate(@Nonnull ResourceLocation requiredLocation) {
         this.location = requiredLocation;
@@ -23,24 +25,24 @@ public class ResourceLocationPredicate {
         return new ResourceLocationPredicate(location);
     }
 
+    /**
+     * @see LocationPredicate
+     */
     public static ResourceLocationPredicate fromJson(JsonElement element) {
         if (!element.isJsonNull()) {
-            JsonObject object = GsonHelper.convertToJsonObject(element, "location");
+            JsonObject object = GsonHelper.convertToJsonObject(element, LOCATION);
+            JsonObject object1 = (JsonObject) object.get(LOCATION);
             ResourceLocation loc;
-            if (object.has("id")) {
-                loc = new ResourceLocation(GsonHelper.getAsString(object, "id"));
+            if (object1.has(REQ_ID)) {
+                loc = new ResourceLocation(GsonHelper.getAsString(object1, REQ_ID));
             } else {
-                //THIS RETURNS NULL ???
-                AdvancementPlus.LOG.info(object.get("id"));
-
-                AdvancementPlus.LOG.info("JsonElement with member 'id' is missing");
-                throw new NullPointerException("line 52");
+                throw new NullPointerException();
             }
 
             return new ResourceLocationPredicate(loc);
         }
 
-        throw new NullPointerException("Line 58");
+        throw new NullPointerException();
     }
 
     public boolean matches(ResourceLocation location) {
@@ -49,15 +51,15 @@ public class ResourceLocationPredicate {
 
     //FOR TEST ONLY
     private boolean matchesUpdate(ResourceLocation location) {
-        final boolean flag = location == this.location;
-        AdvancementPlus.LOG.info("Given location [{}] - Required Location [{}]", location, this.location);
-        AdvancementPlus.LOG.info("Location matches: " + flag);
+        final boolean flag = location.toString().equals(this.location.toString());
+        /*AdvancementPlus.LOG.info("Given location [{}] - Required Location [{}]", location, this.location);
+        AdvancementPlus.LOG.info("Location matches: " + flag);*/
         return flag;
     }
 
     public JsonElement toJson() {
         JsonObject object = new JsonObject();
-        object.addProperty("id", location.toString());
+        object.addProperty(REQ_ID, location.toString());
         return object;
     }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "advancementplus:root",
+  "parent": "advancementplus:fully_covered",
   "display": {
     "icon": {
       "item": "minecraft:enchanted_book"

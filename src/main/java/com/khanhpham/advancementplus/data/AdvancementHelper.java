@@ -24,10 +24,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.feature.StructureFeature;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Consumer;
 
 public class AdvancementHelper {
@@ -135,6 +132,13 @@ public class AdvancementHelper {
         return save(builder, ModUtils.modLoc(saveName));
     }
 
+    public Advancement playerGotKilled(Advancement parent, String saveName, ItemLike icon, TranslatableComponent title, FrameType frame, boolean toChat, EntityPredicate.Builder killerEntity, DamageSourcePredicate.Builder damageSource) {
+        Advancement.Builder builder = setDisplay(parent, icon, title, frame, true, toChat, false);
+
+        builder.addCriterion("req", KilledTrigger.TriggerInstance.entityKilledPlayer(killerEntity, damageSource));
+        return save(builder, ModUtils.modLoc(saveName));
+    }
+
     public Advancement.Builder setDisplay(ResourceLocation parent, ItemLike icon, TranslatableComponent component, FrameType frame, boolean toast, boolean toChat, boolean hidden) {
         return builder().display(icon, component, getDescription(component), null, frame, toast, toChat, hidden).parent(parent);
     }
@@ -143,7 +147,7 @@ public class AdvancementHelper {
         return builder().display(icon, component, getDescription(component), null, frame, toast, toChat, hidden)
                 .parent(parent);
     }
-    public Advancement completeAdvancements(String parent, String saveName, ItemLike icon, TranslatableComponent title, FrameType frame, boolean toChat, ResourceLocation... advancementLocations) {
+    public void completeAdvancements(String parent, String saveName, ItemLike icon, TranslatableComponent title, FrameType frame, boolean toChat, ResourceLocation... advancementLocations) {
         Advancement.Builder builder = setDisplay(new ResourceLocation(parent), icon, title, frame, true, toChat, false);
 
         Set<ResourceLocation> locationSet = Set.of(advancementLocations);
@@ -153,10 +157,14 @@ public class AdvancementHelper {
         }
 
         builder.requirements(RequirementsStrategy.AND);
-        return save(builder, ModUtils.modLoc(saveName));
+        save(builder, ModUtils.modLoc(saveName));
     }
 
-    //FOR TESTING ONLY
+    public void completeAdvancements(String parent, ItemLike icon, TranslatableComponent title, boolean toChat, List<ResourceLocation> advancementLocations) {
+        this.completeAdvancements(parent + "/root", "complete/all_" + parent, icon, title, frameChallenge, toChat, advancementLocations.toArray(new ResourceLocation[0]));
+    }
+
+        //FOR TESTING ONLY
     public Advancement save(Advancement.Builder builder, ResourceLocation rl) {
         AdvancementPlus.LOG.info("Building Advancement [{}]", rl);
         return builder.save(consumer, rl , fileHelper);

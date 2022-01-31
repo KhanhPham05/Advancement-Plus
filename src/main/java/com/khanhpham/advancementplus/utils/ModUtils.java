@@ -1,7 +1,9 @@
 package com.khanhpham.advancementplus.utils;
 
 import com.khanhpham.advancementplus.AdvancementPlus;
+import net.minecraft.advancements.Advancement;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.ServerAdvancementManager;
 import net.minecraft.world.level.block.Block;
 
 import javax.annotation.Nullable;
@@ -34,7 +36,15 @@ public class ModUtils {
         return t != null ? t : ifNull;
     }
 
-    public static ResourceLocation advancement(String loc) {
-        return modLoc("advancement/" + loc);
+    public static void info(String message, Object... param) {
+        AdvancementPlus.LOG.info(message, param);
+    }
+
+    public static void printDebugLocation(Advancement advancement) {
+        ModUtils.info("Advancement [{}]", advancement.getId().toString());
+    }
+
+    public static void info(Object object) {
+        AdvancementPlus.LOG.info(object);
     }
 }

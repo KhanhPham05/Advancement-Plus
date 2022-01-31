@@ -31,7 +31,12 @@ public class ModLanguageProvider extends LanguageProvider {
     public static final TranslatableComponent ARTIFICIAL_SELECTION = translate("artificial_selection");
     public static final TranslatableComponent DIVING_FISHERMAN = translate("diving_fisherman");
     public static final TranslatableComponent ALL_ADVENTURE = translate("all_adventure");
+    public static final TranslatableComponent ALL_NETHER = translate("all_the_nether");
     public static final TranslatableComponent THE_HAGGLER = translate("the_haggler");
+    public static final TranslatableComponent ALL_THE_END = translate("all_the_end");
+    public static final TranslatableComponent ALL_HUSBANDRY = translate("all_husbandry");
+    public static final TranslatableComponent ALL_STORY = translate("all_story");
+    public static final TranslatableComponent EXPLOSION_FROM_NO_WHERE = translate("explosion_from_no_where");
 
     public ModLanguageProvider(DataGenerator gen) {
         super(gen, AdvancementPlus.MOD_ID, "en_us");
@@ -68,12 +73,19 @@ public class ModLanguageProvider extends LanguageProvider {
         advancement(DIVING_FISHERMAN, "Diving Fisherman", "Catch a fish underwater");
         advancement(THE_HAGGLER, "The Haggler", "Not Yet Implemented");
         advancement(ALL_ADVENTURE, "Adventurer", "Complete all advancements in Adventure Chapter");
+        advancement(ALL_NETHER, "Nether Conjurer", "Complete all advancements in Nether Chapter");
+        advancement(ALL_THE_END, "The End Conjurer", "Complete all advancements in The End Chapter");
+        advancement(ALL_HUSBANDRY, "A True Farmer", "Complete all advancements in Husbandry Chapter");
+        advancement(ALL_STORY, "A Complete Story", "Complete all advancement in Story Chapter");
+        advancement(EXPLOSION_FROM_NO_WHERE, "Explosion From No Where", "Not Yet Implemented");
     }
 
     private void advancement(TranslatableComponent component, String title, String desc) {
-        this.add(component, title);
-        TranslatableComponent c = new TranslatableComponent(component.getKey() + ".desc");
-        this.add(c, desc);
+        if (!title.isEmpty() && !desc.isEmpty()) {
+            this.add(component, title);
+            TranslatableComponent c = new TranslatableComponent(component.getKey() + ".desc");
+            this.add(c, desc);
+        }
     }
 
     private void add(TranslatableComponent component, String value) {

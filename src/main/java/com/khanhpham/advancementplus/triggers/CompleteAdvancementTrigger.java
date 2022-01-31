@@ -44,12 +44,12 @@ public class CompleteAdvancementTrigger extends SimpleCriterionTrigger<CompleteA
         @Override
         public JsonObject serializeToJson(SerializationContext p_16979_) {
             JsonObject object = super.serializeToJson(p_16979_);
-            object.add("location", requiredAdvancement.toJson());
+            object.add(ResourceLocationPredicate.LOCATION, requiredAdvancement.toJson());
             return object;
         }
 
         private boolean matches(Advancement req) {
-            AdvancementPlus.LOG.info("Requirement advancement [{}]", req.getId());
+            //AdvancementPlus.LOG.info("Requirement advancement [{}]", req.getId());
             return requiredAdvancement.matches(req.getId());
         }
     }

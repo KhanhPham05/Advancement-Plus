@@ -1,0 +1,42 @@
+{
+  "parent": "advancementplus:fortunate_fisherman",
+  "display": {
+    "icon": {
+      "item": "minecraft:white_bed"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.explosion_from_no_where"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.explosion_from_no_where.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "req": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:player"
+            },
+            "entity": "this"
+          }
+        ],
+        "killing_blow": {
+          "is_explosion": true
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "req"
+    ]
+  ]
+}
