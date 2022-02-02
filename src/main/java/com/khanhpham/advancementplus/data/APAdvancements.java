@@ -14,6 +14,7 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.data.advancements.AdvancementProvider;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -41,6 +42,9 @@ public class APAdvancements extends AdvancementProvider {
     protected void registerAdvancements(Consumer<Advancement> consumer, ExistingFileHelper fileHelper) {
         AdvancementPlus.LOG.info("Building advancements");
         AdvancementHelper helper = new AdvancementHelper(consumer, fileHelper);
+        //Pack Icon
+        //helper.builder().display(Icons.MOD_ICON, ModLanguageProvider.ROOT, ModLanguageProvider.ROOT_DESC, new ResourceLocation("textures/block/dark_oak_planks.png"), helper.frameChallenge, true, false, true).addCriterion("tick", new TickTrigger.TriggerInstance(EntityPredicate.Composite.ANY)).save(consumer, ModUtils.modLoc("hidden/mod_background"), fileHelper);
+
         Advancement root = helper.builder().addCriterion("tick", new TickTrigger.TriggerInstance(EntityPredicate.Composite.ANY)).display(Icons.MOD_ICON, ModLanguageProvider.ROOT, ModLanguageProvider.ROOT_DESC, new ResourceLocation("textures/block/dark_oak_planks.png"), FrameType.CHALLENGE, false, false, false).save(consumer, ModUtils.modLoc("root"), fileHelper);
         Advancement coal = helper.gatherItems(root, "get_the_coals", ModLanguageProvider.GET_THE_COALS, helper.frameTask, false, Items.COAL);
         Advancement gold = helper.gatherItems(coal, "get_the_golds", ModLanguageProvider.GET_THE_GOLDS, helper.frameTask, false, Items.GOLD_INGOT);
@@ -84,8 +88,8 @@ public class APAdvancements extends AdvancementProvider {
     private void miscAdvancements(Consumer<Advancement> consumer, AdvancementHelper helper, Advancement root) {
         Advancement fullyCovered = helper.gatherItems(root, "fully_covered", ModLanguageProvider.FULLY_COVERED, helper.frameGoal, true, Items.DIAMOND_HELMET, Items.DIAMOND_CHESTPLATE, Items.DIAMOND_LEGGINGS, Items.DIAMOND_BOOTS);
         Advancement fortunateFisherman = fortunateFisherman(consumer, helper, fileHelper, fullyCovered, FORTUNATE_FISHERMAN_ITEMS);
-
-        Advancement explosionFromNoWhere = helper.playerGotKilled(fortunateFisherman, "explosion_from_no_where", Items.WHITE_BED, ModLanguageProvider.EXPLOSION_FROM_NO_WHERE, helper.frameTask, true, EntityPredicate.Builder.entity().of(EntityType.PLAYER), DamageSourcePredicate.Builder.damageType().isExplosion(true));
+        Advancement moskstraumen = helper.applyEffect(fortunateFisherman, "moskstraumen", Items.CONDUIT, ModLanguageProvider.MOSKTRAUMEN, helper.frameGoal, true,MobEffects.CONDUIT_POWER);
+        Advancement explosionFromNoWhere = helper.playerGotKilled(moskstraumen, "explosion_from_no_where", Items.WHITE_BED, ModLanguageProvider.EXPLOSION_FROM_NO_WHERE, helper.frameTask, true, EntityPredicate.Builder.entity().of(EntityType.PLAYER), DamageSourcePredicate.Builder.damageType().isExplosion(true));
     }
 
     /**

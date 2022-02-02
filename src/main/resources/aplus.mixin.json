@@ -2,6 +2,7 @@
   "required": true,
   "package": "com.khanhpham.advancementplus.mixin",
   "compatibilityLevel": "JAVA_17",
+  "refmap" : "mixin.aplus-refmap.json",
   "mixins": [
     "AdvancementCompleteMixin",
     "FishingUnderwaterMixin",

@@ -16,6 +16,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -147,6 +148,9 @@ public class AdvancementHelper {
         return builder().display(icon, component, getDescription(component), null, frame, toast, toChat, hidden)
                 .parent(parent);
     }
+
+
+
     public void completeAdvancements(String parent, String saveName, ItemLike icon, TranslatableComponent title, FrameType frame, boolean toChat, ResourceLocation... advancementLocations) {
         Advancement.Builder builder = setDisplay(new ResourceLocation(parent), icon, title, frame, true, toChat, false);
 
@@ -164,11 +168,17 @@ public class AdvancementHelper {
         this.completeAdvancements(parent + "/root", "complete/all_" + parent, icon, title, frameChallenge, toChat, advancementLocations.toArray(new ResourceLocation[0]));
     }
 
-        //FOR TESTING ONLY
+    public Advancement applyEffect(Advancement parent, String saveName, ItemLike icon, TranslatableComponent title, FrameType frame, boolean toChat, MobEffect effects) {
+        Advancement.Builder builder = setDisplay(parent, icon, title, frame, true, toChat, false);
+        MobEffectsPredicate predicate = MobEffectsPredicate.effects().and(effects);
+        builder.addCriterion("apply_effect_" + Objects.requireNonNull(effects.getRegistryName()).getPath(), EffectsChangedTrigger.TriggerInstance.hasEffects(predicate));
+        return save(builder, ModUtils.modLoc(saveName));
+    }
+
     public Advancement save(Advancement.Builder builder, ResourceLocation rl) {
         AdvancementPlus.LOG.info("Building Advancement [{}]", rl);
-        return builder.save(consumer, rl , fileHelper);
-    };
+        return builder.save(consumer, rl, fileHelper);
+    }
 
     public Advancement enterCave(Advancement parent, String saveName, ItemLike icon, TranslatableComponent title, FrameType frame, boolean toChat, ResourceKey<Biome> biome) {
         return this.enterCave(parent, saveName, icon, title, frame, toChat, ImmutableSet.of(biome));

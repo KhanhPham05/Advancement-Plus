@@ -37,6 +37,7 @@ public class ModLanguageProvider extends LanguageProvider {
     public static final TranslatableComponent ALL_HUSBANDRY = translate("all_husbandry");
     public static final TranslatableComponent ALL_STORY = translate("all_story");
     public static final TranslatableComponent EXPLOSION_FROM_NO_WHERE = translate("explosion_from_no_where");
+    public static final TranslatableComponent MOSKTRAUMEN = translate("mosktraumen");
 
     public ModLanguageProvider(DataGenerator gen) {
         super(gen, AdvancementPlus.MOD_ID, "en_us");
@@ -78,6 +79,7 @@ public class ModLanguageProvider extends LanguageProvider {
         advancement(ALL_HUSBANDRY, "A True Farmer", "Complete all advancements in Husbandry Chapter");
         advancement(ALL_STORY, "A Complete Story", "Complete all advancement in Story Chapter");
         advancement(EXPLOSION_FROM_NO_WHERE, "Explosion From No Where", "Not Yet Implemented");
+        advancement(MOSKTRAUMEN, "Mosktraumen", "Activate conduit");
     }
 
     private void advancement(TranslatableComponent component, String title, String desc) {

@@ -1,0 +1,33 @@
+{
+  "parent": "advancementplus:fortunate_fisherman",
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.mosktraumen"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.mosktraumen.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "apply_effect_conduit_power": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apply_effect_conduit_power"
+    ]
+  ]
+}

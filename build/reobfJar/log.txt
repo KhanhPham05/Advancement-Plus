@@ -1,5 +1,5 @@
 Java Launcher: C:\Program Files\Java\jdk-17.0.1\bin\java.exe
-Arguments: '--in-jar, H:\FORGE 1.18\APlus - 1 - 18\build\libs\advancementplus-forge-2.1.jar, --out-jar, H:\FORGE 1.18\APlus - 1 - 18\build\reobfJar\output.jar, --srg-in, H:\FORGE 1.18\APlus - 1 - 18\build\createMcpToSrg\output.tsrg, --srg-in, H:\FORGE 1.18\APlus - 1 - 18\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
+Arguments: '--in-jar, H:\FORGE 1.18\APlus - 1 - 18\build\libs\advancementplus-forge-2.2.jar, --out-jar, H:\FORGE 1.18\APlus - 1 - 18\build\reobfJar\output.jar, --srg-in, H:\FORGE 1.18\APlus - 1 - 18\build\createMcpToSrg\output.tsrg, --srg-in, H:\FORGE 1.18\APlus - 1 - 18\build\tmp\compileJava\compileJava-mappings.tsrg, --live'
 Classpath:
  - C:\Users\HP\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.10.0\SpecialSource-1.10.0-shaded.jar
  - C:\Users\HP\.gradle\caches\modules-2\files-2.1\curse.maven\advancement-plus-vanilla-449187\3302673\ab687bb1adcb5be7673ee863535c34b1e2a2b1e7\advancement-plus-vanilla-449187-3302673.jar
@@ -108,11 +108,11 @@ Remapping final jar
 Remapping jar...  1%
 Remapping jar... 11%
 Remapping jar... 21%
-Remapping jar... 31%
-Remapping jar... 41%
+Remapping jar... 30%
+Remapping jar... 40%
 Remapping jar... 50%
-Remapping jar... 60%
-Remapping jar... 70%
+Remapping jar... 61%
+Remapping jar... 71%
 Remapping jar... 80%
 Remapping jar... 90%
 Remapping jar... 100%

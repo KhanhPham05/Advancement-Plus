@@ -16,14 +16,6 @@
     "hidden": false
   },
   "criteria": {
-    "complete_nether/summon_wither": {
-      "trigger": "advancementplus:complete_advancements",
-      "conditions": {
-        "resource_location": {
-          "required_location": "minecraft:nether/summon_wither"
-        }
-      }
-    },
     "complete_nether/find_fortress": {
       "trigger": "advancementplus:complete_advancements",
       "conditions": {
@@ -199,12 +191,17 @@
           "required_location": "minecraft:nether/distract_piglin"
         }
       }
+    },
+    "complete_nether/summon_wither": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/summon_wither"
+        }
+      }
     }
   },
   "requirements": [
-    [
-      "complete_nether/summon_wither"
-    ],
     [
       "complete_nether/find_fortress"
     ],
@@ -270,6 +267,9 @@
     ],
     [
       "complete_nether/distract_piglin"
+    ],
+    [
+      "complete_nether/summon_wither"
     ]
   ]
 }

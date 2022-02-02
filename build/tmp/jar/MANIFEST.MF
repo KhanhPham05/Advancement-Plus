@@ -3,9 +3,9 @@ Specification-Title: AdvancementPlus
 Specification-Vendor: KhanhPham
 Specification-Version: 1
 Implementation-Title: APlus - 1 - 18
-Implementation-Version: 2.1
+Implementation-Version: 2.2
 Implementation-Vendor: khanhpham
-Implementation-Timestamp: 2022-01-31T16:03:33+0700
+Implementation-Timestamp: 2022-02-01T19:09:40+0700
 TweakClass: org.spongepowered.asm.launch.MixinTweaker
 TweakOrder: 0
 MixinConfigs: aplus.mixin.json

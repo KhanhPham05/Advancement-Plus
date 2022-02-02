@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c30dfd8-906a-4640-9fb8-304dedee7125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_end.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_husbandry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_nether.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_story.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/explosion_from_no_where.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/AdvancementChapters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/AdvancementGetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" afterDir="false" />
@@ -25,18 +18,14 @@
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/.cache/cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/.cache/cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generated/resources/assets/advancementplus/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/assets/advancementplus/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_adventure.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_adventure.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/fortunate_fisherman.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/fortunate_fisherman.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_nether.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/complete/all_nether.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/explosion_from_no_where.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/generated/resources/data/advancementplus/advancements/explosion_from_no_where.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/APAdvancements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/APAdvancements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/AdvancementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/AdvancementHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/ModLanguageProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/data/ModLanguageProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/AdvancementCompleteMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/mixin/AdvancementCompleteMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/CompleteAdvancementTrigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/CompleteAdvancementTrigger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ResourceLocationPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/triggers/ResourceLocationPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/ModUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/khanhpham/advancementplus/utils/ModUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aplus.mixin.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aplus.mixin.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +114,7 @@
       <recent name="H:\FORGE 1.18\APlus - 1 - 18\src\main\resources\assets\advancementplus\textures\item" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.APlus - 1 - 18 [build]">
+  <component name="RunManager" selected="Application.runClient">
     <configuration name="APlus - 1 - 18 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
