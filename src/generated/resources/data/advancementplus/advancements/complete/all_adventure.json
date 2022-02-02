@@ -1,0 +1,308 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.all_adventure"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.all_adventure.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "complete_adventure/walk_on_powder_snow_with_leather_boost": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/walk_on_powder_snow_with_leather_boost"
+        }
+      }
+    },
+    "complete_adventure/voluntary_exile": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/voluntary_exile"
+        }
+      }
+    },
+    "complete_adventure/summon_iron_golem": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/summon_iron_golem"
+        }
+      }
+    },
+    "complete_adventure/spyglass_at_ghast": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/spyglass_at_ghast"
+        }
+      }
+    },
+    "complete_adventure/honey_block_slide": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/honey_block_slide"
+        }
+      }
+    },
+    "complete_adventure/sniper_duel": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/sniper_duel"
+        }
+      }
+    },
+    "complete_adventure/bullseye": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/bullseye"
+        }
+      }
+    },
+    "complete_adventure/whos_the_pillager_now": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/whos_the_pillager_now"
+        }
+      }
+    },
+    "complete_adventure/spyglass_at_parrot": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/spyglass_at_parrot"
+        }
+      }
+    },
+    "complete_adventure/adventuring_time": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/adventuring_time"
+        }
+      }
+    },
+    "complete_adventure/lightning_rod_with_villager_no_fire": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/lightning_rod_with_villager_no_fire"
+        }
+      }
+    },
+    "complete_adventure/ol_betsy": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/ol_betsy"
+        }
+      }
+    },
+    "complete_adventure/shoot_arrow": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/shoot_arrow"
+        }
+      }
+    },
+    "complete_adventure/sleep_in_bed": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/sleep_in_bed"
+        }
+      }
+    },
+    "complete_adventure/play_jukebox_in_meadows": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/play_jukebox_in_meadows"
+        }
+      }
+    },
+    "complete_adventure/arbalistic": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/arbalistic"
+        }
+      }
+    },
+    "complete_adventure/trade": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/trade"
+        }
+      }
+    },
+    "complete_adventure/kill_all_mobs": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/kill_all_mobs"
+        }
+      }
+    },
+    "complete_adventure/very_very_frightening": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/very_very_frightening"
+        }
+      }
+    },
+    "complete_adventure/hero_of_the_village": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/hero_of_the_village"
+        }
+      }
+    },
+    "complete_adventure/two_birds_one_arrows": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/two_birds_one_arrows"
+        }
+      }
+    },
+    "complete_adventure/spyglass_at_dragon": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/spyglass_at_dragon"
+        }
+      }
+    },
+    "complete_adventure/totem_of_undying": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/totem_of_undying"
+        }
+      }
+    },
+    "complete_adventure/fall_from_world_height": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/fall_from_world_height"
+        }
+      }
+    },
+    "complete_adventure/kill_a_mob": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/kill_a_mob"
+        }
+      }
+    },
+    "complete_adventure/throw_trident": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:adventure/throw_trident"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "complete_adventure/walk_on_powder_snow_with_leather_boost"
+    ],
+    [
+      "complete_adventure/voluntary_exile"
+    ],
+    [
+      "complete_adventure/summon_iron_golem"
+    ],
+    [
+      "complete_adventure/spyglass_at_ghast"
+    ],
+    [
+      "complete_adventure/honey_block_slide"
+    ],
+    [
+      "complete_adventure/sniper_duel"
+    ],
+    [
+      "complete_adventure/bullseye"
+    ],
+    [
+      "complete_adventure/whos_the_pillager_now"
+    ],
+    [
+      "complete_adventure/spyglass_at_parrot"
+    ],
+    [
+      "complete_adventure/adventuring_time"
+    ],
+    [
+      "complete_adventure/lightning_rod_with_villager_no_fire"
+    ],
+    [
+      "complete_adventure/ol_betsy"
+    ],
+    [
+      "complete_adventure/shoot_arrow"
+    ],
+    [
+      "complete_adventure/sleep_in_bed"
+    ],
+    [
+      "complete_adventure/play_jukebox_in_meadows"
+    ],
+    [
+      "complete_adventure/arbalistic"
+    ],
+    [
+      "complete_adventure/trade"
+    ],
+    [
+      "complete_adventure/kill_all_mobs"
+    ],
+    [
+      "complete_adventure/very_very_frightening"
+    ],
+    [
+      "complete_adventure/hero_of_the_village"
+    ],
+    [
+      "complete_adventure/two_birds_one_arrows"
+    ],
+    [
+      "complete_adventure/spyglass_at_dragon"
+    ],
+    [
+      "complete_adventure/totem_of_undying"
+    ],
+    [
+      "complete_adventure/fall_from_world_height"
+    ],
+    [
+      "complete_adventure/kill_a_mob"
+    ],
+    [
+      "complete_adventure/throw_trident"
+    ]
+  ]
+}

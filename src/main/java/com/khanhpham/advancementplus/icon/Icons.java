@@ -1,6 +1,7 @@
 package com.khanhpham.advancementplus.icon;
 
 import com.khanhpham.advancementplus.AdvancementPlus;
+import com.khanhpham.advancementplus.utils.ModUtils;
 import net.minecraft.core.Registry;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
@@ -17,25 +18,29 @@ import java.util.Set;
 
 @Mod.EventBusSubscriber(modid = AdvancementPlus.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Icons {
-    public Icons() {}
-
-    private static final Helper helper = new Helper();
-
     public static final Item MOD_ICON;
     public static final Item MONUMENT_ICON;
     public static final Item MANSION_ICON;
     public static final Item HEART;
+    private static final Helper helper = new Helper();
 
-    static  {
-        MOD_ICON = helper.register("mod_icon");
-        MONUMENT_ICON = helper.register("monument_icon");
-        MANSION_ICON = helper.register("mansion_icon");
-        HEART = helper.register("heart");
+    static {
+        MOD_ICON = icon("mod_icon");
+        MONUMENT_ICON = icon("monument_icon");
+        MANSION_ICON = icon("mansion_icon");
+        HEART = icon("heart");
+    }
+
+    public Icons() {
     }
 
     @SubscribeEvent
     public static void registerIcons(RegistryEvent.Register<Item> reg) {
         helper.init(reg.getRegistry());
+    }
+
+    private static Item icon(String name) {
+        return helper.register(name);
     }
 
     public static final class IconModel extends ItemModelProvider {
@@ -55,8 +60,8 @@ public class Icons {
 
         private void single(Item icon) {
 
-            @SuppressWarnings("deprecation")  String name = Registry.ITEM.getKey(icon).getPath();
-            withExistingParent(name, parent).texture("layer0", modLoc("item/"+name));
+            @SuppressWarnings("deprecation") String name = Registry.ITEM.getKey(icon).getPath();
+            withExistingParent(name, parent).texture("layer0", modLoc("item/" + name));
         }
     }
 

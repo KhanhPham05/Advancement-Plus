@@ -1,0 +1,198 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.all_husbandry"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.all_husbandry.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "complete_husbandry/axolotl_in_a_bucket": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/axolotl_in_a_bucket"
+        }
+      }
+    },
+    "complete_husbandry/fishy_business": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/fishy_business"
+        }
+      }
+    },
+    "complete_husbandry/make_a_sign_glow": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/make_a_sign_glow"
+        }
+      }
+    },
+    "complete_husbandry/ride_a_boat_with_goat": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/ride_a_boat_with_goat"
+        }
+      }
+    },
+    "complete_husbandry/complete_catalogue": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/complete_catalogue"
+        }
+      }
+    },
+    "complete_husbandry/kill_axolotl_target": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/kill_axolotl_target"
+        }
+      }
+    },
+    "complete_husbandry/plant_seed": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/plant_seed"
+        }
+      }
+    },
+    "complete_husbandry/wax_off": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/wax_off"
+        }
+      }
+    },
+    "complete_husbandry/obtain_netherite_hoe": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/obtain_netherite_hoe"
+        }
+      }
+    },
+    "complete_husbandry/silk_touch_nest": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/silk_touch_nest"
+        }
+      }
+    },
+    "complete_husbandry/bred_all_animals": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/bred_all_animals"
+        }
+      }
+    },
+    "complete_husbandry/tactical_fishing": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/tactical_fishing"
+        }
+      }
+    },
+    "complete_husbandry/wax_on": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/wax_on"
+        }
+      }
+    },
+    "complete_husbandry/balanced_diet": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/balanced_diet"
+        }
+      }
+    },
+    "complete_husbandry/safe_harvest_honey": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/safe_harvest_honey"
+        }
+      }
+    },
+    "complete_husbandry/tame_an_animal": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:husbandry/tame_an_animal"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "complete_husbandry/axolotl_in_a_bucket"
+    ],
+    [
+      "complete_husbandry/fishy_business"
+    ],
+    [
+      "complete_husbandry/make_a_sign_glow"
+    ],
+    [
+      "complete_husbandry/ride_a_boat_with_goat"
+    ],
+    [
+      "complete_husbandry/complete_catalogue"
+    ],
+    [
+      "complete_husbandry/kill_axolotl_target"
+    ],
+    [
+      "complete_husbandry/plant_seed"
+    ],
+    [
+      "complete_husbandry/wax_off"
+    ],
+    [
+      "complete_husbandry/obtain_netherite_hoe"
+    ],
+    [
+      "complete_husbandry/silk_touch_nest"
+    ],
+    [
+      "complete_husbandry/bred_all_animals"
+    ],
+    [
+      "complete_husbandry/tactical_fishing"
+    ],
+    [
+      "complete_husbandry/wax_on"
+    ],
+    [
+      "complete_husbandry/balanced_diet"
+    ],
+    [
+      "complete_husbandry/safe_harvest_honey"
+    ],
+    [
+      "complete_husbandry/tame_an_animal"
+    ]
+  ]
+}

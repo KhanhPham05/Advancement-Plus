@@ -1,0 +1,275 @@
+{
+  "parent": "minecraft:nether/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.all_the_nether"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.all_the_nether.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "complete_nether/find_fortress": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/find_fortress"
+        }
+      }
+    },
+    "complete_nether/create_beacon": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/create_beacon"
+        }
+      }
+    },
+    "complete_nether/get_wither_skull": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/get_wither_skull"
+        }
+      }
+    },
+    "complete_nether/obtain_blaze_rod": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/obtain_blaze_rod"
+        }
+      }
+    },
+    "complete_nether/use_lodestone": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/use_lodestone"
+        }
+      }
+    },
+    "complete_nether/netherite_armor": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/netherite_armor"
+        }
+      }
+    },
+    "complete_nether/brew_potion": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/brew_potion"
+        }
+      }
+    },
+    "complete_nether/explore_nether": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/explore_nether"
+        }
+      }
+    },
+    "complete_nether/fast_travel": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/fast_travel"
+        }
+      }
+    },
+    "complete_nether/all_effects": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/all_effects"
+        }
+      }
+    },
+    "complete_nether/all_potions": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/all_potions"
+        }
+      }
+    },
+    "complete_nether/loot_bastion": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/loot_bastion"
+        }
+      }
+    },
+    "complete_nether/find_bastion": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/find_bastion"
+        }
+      }
+    },
+    "complete_nether/return_to_sender": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/return_to_sender"
+        }
+      }
+    },
+    "complete_nether/ride_strider_in_overworld_lava": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/ride_strider_in_overworld_lava"
+        }
+      }
+    },
+    "complete_nether/charge_respawn_anchor": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/charge_respawn_anchor"
+        }
+      }
+    },
+    "complete_nether/rise_strider": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/rise_strider"
+        }
+      }
+    },
+    "complete_nether/create_full_beacon": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/create_full_beacon"
+        }
+      }
+    },
+    "complete_nether/uneasy_alliance": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/uneasy_alliance"
+        }
+      }
+    },
+    "complete_nether/obtain_crying_obsidian": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/obtain_crying_obsidian"
+        }
+      }
+    },
+    "complete_nether/obtain_ancient_debris": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/obtain_ancient_debris"
+        }
+      }
+    },
+    "complete_nether/distract_piglin": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/distract_piglin"
+        }
+      }
+    },
+    "complete_nether/summon_wither": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:nether/summon_wither"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "complete_nether/find_fortress"
+    ],
+    [
+      "complete_nether/create_beacon"
+    ],
+    [
+      "complete_nether/get_wither_skull"
+    ],
+    [
+      "complete_nether/obtain_blaze_rod"
+    ],
+    [
+      "complete_nether/use_lodestone"
+    ],
+    [
+      "complete_nether/netherite_armor"
+    ],
+    [
+      "complete_nether/brew_potion"
+    ],
+    [
+      "complete_nether/explore_nether"
+    ],
+    [
+      "complete_nether/fast_travel"
+    ],
+    [
+      "complete_nether/all_effects"
+    ],
+    [
+      "complete_nether/all_potions"
+    ],
+    [
+      "complete_nether/loot_bastion"
+    ],
+    [
+      "complete_nether/find_bastion"
+    ],
+    [
+      "complete_nether/return_to_sender"
+    ],
+    [
+      "complete_nether/ride_strider_in_overworld_lava"
+    ],
+    [
+      "complete_nether/charge_respawn_anchor"
+    ],
+    [
+      "complete_nether/rise_strider"
+    ],
+    [
+      "complete_nether/create_full_beacon"
+    ],
+    [
+      "complete_nether/uneasy_alliance"
+    ],
+    [
+      "complete_nether/obtain_crying_obsidian"
+    ],
+    [
+      "complete_nether/obtain_ancient_debris"
+    ],
+    [
+      "complete_nether/distract_piglin"
+    ],
+    [
+      "complete_nether/summon_wither"
+    ]
+  ]
+}

@@ -1,4 +1,5 @@
 {
+  "parent": "advancementplus:root",
   "display": {
     "icon": {
       "item": "minecraft:emerald"

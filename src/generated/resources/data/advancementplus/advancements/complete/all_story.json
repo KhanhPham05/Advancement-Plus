@@ -1,0 +1,187 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancementplus.advancement.all_story"
+    },
+    "description": {
+      "translate": "advancementplus.advancement.all_story.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "complete_story/mine_diamond": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/mine_diamond"
+        }
+      }
+    },
+    "complete_story/obtain_armor": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/obtain_armor"
+        }
+      }
+    },
+    "complete_story/smelt_iron": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/smelt_iron"
+        }
+      }
+    },
+    "complete_story/enter_the_nether": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/enter_the_nether"
+        }
+      }
+    },
+    "complete_story/iron_tools": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/iron_tools"
+        }
+      }
+    },
+    "complete_story/shiny_gear": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/shiny_gear"
+        }
+      }
+    },
+    "complete_story/upgrade_tools": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/upgrade_tools"
+        }
+      }
+    },
+    "complete_story/enchant_item": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/enchant_item"
+        }
+      }
+    },
+    "complete_story/follow_ender_eye": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/follow_ender_eye"
+        }
+      }
+    },
+    "complete_story/mine_stone": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/mine_stone"
+        }
+      }
+    },
+    "complete_story/form_obsidian": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/form_obsidian"
+        }
+      }
+    },
+    "complete_story/enter_the_end": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/enter_the_end"
+        }
+      }
+    },
+    "complete_story/lava_bucket": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/lava_bucket"
+        }
+      }
+    },
+    "complete_story/deflect_arrow": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/deflect_arrow"
+        }
+      }
+    },
+    "complete_story/cure_zombie_villager": {
+      "trigger": "advancementplus:complete_advancements",
+      "conditions": {
+        "resource_location": {
+          "required_location": "minecraft:story/cure_zombie_villager"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "complete_story/mine_diamond"
+    ],
+    [
+      "complete_story/obtain_armor"
+    ],
+    [
+      "complete_story/smelt_iron"
+    ],
+    [
+      "complete_story/enter_the_nether"
+    ],
+    [
+      "complete_story/iron_tools"
+    ],
+    [
+      "complete_story/shiny_gear"
+    ],
+    [
+      "complete_story/upgrade_tools"
+    ],
+    [
+      "complete_story/enchant_item"
+    ],
+    [
+      "complete_story/follow_ender_eye"
+    ],
+    [
+      "complete_story/mine_stone"
+    ],
+    [
+      "complete_story/form_obsidian"
+    ],
+    [
+      "complete_story/enter_the_end"
+    ],
+    [
+      "complete_story/lava_bucket"
+    ],
+    [
+      "complete_story/deflect_arrow"
+    ],
+    [
+      "complete_story/cure_zombie_villager"
+    ]
+  ]
+}
